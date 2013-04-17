@@ -28,10 +28,12 @@
     <!-- Full path to the sysfs luminosity -->
     <add-resource type="string" name="flashDeviceLuminosity">
     <string name="flashDeviceLuminosity"></string>
+
     <!-- Off setting -->
     <integer name="valueOff">0</integer>
     <!-- On setting -->
     <integer name="valueOn">3</integer>
+
     <!-- Low setting -->
     <integer name="valueLow">3</integer>
     <!-- Middle setting -->

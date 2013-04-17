@@ -3,26 +3,21 @@
     <item name="none">0</item>
     <item name="screen.on">75</item>
     <item name="bluetooth.active">32</item>
-    <item name="bluetooth.on">0.1</item>
+    <item name="bluetooth.on">0.3</item>
     <item name="screen.full">201</item>
-    <item name="wifi.on">0.1</item>
+    <item name="wifi.on">0.3</item>
     <item name="wifi.active">83</item>
     <item name="wifi.scan">52</item>
     <item name="dsp.audio">34</item>
     <item name="dsp.video">265</item>
-    <item name="radio.active">242</item>
-    <item name="radio.scanning">82</item>
+    <item name="radio.active">1</item>
+    <item name="radio.scanning">0.5</item>
     <item name="gps.on">1</item>
     <array name="radio.on">
         <value>0.2</value>
         <value>0.1</value>
     </array>
     <array name="cpu.speeds">
-        <value>1958400</value>
-        <value>1824000</value>
-        <value>1708800</value>
-        <value>1612800</value>
-        <value>1516800</value>
         <value>1401600</value>
         <value>1200000</value>
         <value>1024000</value>
@@ -32,14 +27,8 @@
         <value>245760</value>
         <value>122880</value>
     </array>
-    <item name="cpu.idle">3.2</item>
-    <item name="cpu.awake">30</item>
+    <item name="cpu.idle">2</item>
     <array name="cpu.active">
-        <value>800</value>
-        <value>750</value>
-        <value>700</value>
-        <value>650</value>
-        <value>600</value>
         <value>550</value>
         <value>430</value>
         <value>380</value>
@@ -51,3 +40,4 @@
     </array>
     <item name="battery.capacity">1500</item>
 </device>
+
