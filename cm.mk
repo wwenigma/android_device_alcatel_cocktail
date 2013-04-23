@@ -20,6 +20,6 @@ PRODUCT_MANUFACTURER := Alcatel
 PRODUCT_RELEASE_NAME := OT-995
 
 # Spoof stock fingerprint for now
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=one_touch_995_ALEU \
-                                BUILD_FINGERPRINT=TCT/one_touch_995_ALEU/one_touch_995_gsm:4.0.4/IceCreamSandwich/531:user/release-keys \
-                                PRIVATE_BUILD_DESC="one_touch_995_ALEU-user 4.0.4 IceCreamSandwich 531 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=cm_cocktail \
+                                BUILD_FINGERPRINT=Alcatel/cocktail/One Touch 995:4.2.2/JB_MR1/531:user/release-keys \
+                                PRIVATE_BUILD_DESC="cocktail-user 4.2.2 JB_MR1 531 release-keys"
