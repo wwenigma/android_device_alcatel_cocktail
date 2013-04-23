@@ -21,5 +21,5 @@ PRODUCT_RELEASE_NAME := OT-995
 
 # Spoof stock fingerprint for now
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=cm_cocktail \
-                                BUILD_FINGERPRINT=Alcatel/cocktail/One Touch 995:4.2.2/JB_MR1/531:user/release-keys \
+                                BUILD_FINGERPRINT="Alcatel/cocktail/One Touch 995:4.2.2/JB_MR1/531:user/release-keys" \
                                 PRIVATE_BUILD_DESC="cocktail-user 4.2.2 JB_MR1 531 release-keys"
