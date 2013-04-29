@@ -48,8 +48,8 @@ PRODUCT_COPY_FILES += \
 # Media codecs & audio policy
 PRODUCT_COPY_FILES += \
     device/alcatel/cocktail/media_codecs.xml:system/etc/media_codecs.xml \
-    device/alcatel/cocktail/media_profiles.xml:system/etc/media_profiles.xml \
-    device/alcatel/cocktail/audio_policy.conf:system/etc/audio_policy.conf
+    device/alcatel/cocktail/media_profiles.xml:system/etc/media_profiles.xml
+#     device/alcatel/cocktail/audio_policy.conf:system/etc/audio_policy.conf
 
 # use high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal hdpi
@@ -116,7 +116,7 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libOmxVdec \
     libstagefrighthw \
-    libI420colorconvert
+    libc2dcolorconvert
 
 # Video
 #PRODUCT_PACKAGES += \
